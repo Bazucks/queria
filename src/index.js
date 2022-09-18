@@ -13,12 +13,14 @@ import Footer from "./components/Footer";
 import Faq from "./components/Faq";
 import Form from "./components/Form";
 import GD from "./components/GD";
+import ClientError404 from "./components/ClientError404";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Navbar />
     <Routes>
+      <Route path="*" element={<ClientError404 />} />
       <Route path="/" element={<App />} />
       <Route path="/tos" element={<Tos />} />
       <Route path="/sm-advertising" element={<Advertising />}  />
