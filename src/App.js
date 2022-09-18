@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import About from "./components/About";
+import AllInOne from "./components/AllInOne";
+import Hero from "./components/Hero";
+import LandCTA from "./components/LandCTA";
+// import Perks from "./components/Perks";
+import Support from "./components/Support";
+import SExpertise from "./components/ServiceComps/SExpertise";
+import Trustproof from "./components/Trustproof";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="overflow-x-hidden">
+      <Hero />
+      <About />
+      <Support />
+      <AllInOne />
+      <SExpertise />
+      <Trustproof />
+      <LandCTA />
     </div>
   );
 }
