@@ -27,7 +27,7 @@ const Support = () => {
             data-aos-once="true"
             className="text-3xl pt-8 text-slate-300 uppercase text-center "
           >
-            Our offer includes{" "}
+            Our offers feature{" "}
           </h2>
           <h3
             data-aos="fade-up"
