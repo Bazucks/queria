@@ -38,7 +38,7 @@ const FormComp = () => {
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-once="true"
-            className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal pb-4 text-slate-300 italic"
+            className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal pb-4 text-slate-700 dark:text-slate-300 italic"
           >
             We are here to help you solve any inquiries!
           </h6>

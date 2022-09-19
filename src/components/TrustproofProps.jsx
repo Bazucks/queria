@@ -21,7 +21,7 @@ const TrustproofProps = (props) => {
       }
       // style={{ backgroundImage: `url(${props.img})` }}
     >
-      <div className="relative top-[40%] text-center text-white">
+      <div className="relative top-[40%] text-center text-slate-700 dark:text-white">
         <h5 className="italic text-lg">{props.desc}</h5>
         <h3 className="text-2xl font-semibold">
           <span className="text-green text-2xl pr-1">~</span>
