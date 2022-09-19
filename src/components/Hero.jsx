@@ -15,7 +15,7 @@ const Hero = () => {
       className="w-full h-screen bg-zinc-200 dark:bg-slate-900 flex flex-col justify-between transition-all duration-300"
     >
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-        <div className="flex flex-col sm:mt-[4rem] sm:space-x-[10rem] md:space-x-0 justify-center md:items-start w-full px-2 sm:pl-6 md:pl-12 py-6">
+        <div className="flex flex-col mt-[5.4rem] sm:mt-[4rem] sm:space-x-[10rem] md:space-x-0 justify-center md:items-start w-full px-2 sm:pl-6 md:pl-12 py-6">
           <p
             data-aos="fade-right"
             data-aos-offset="200"
