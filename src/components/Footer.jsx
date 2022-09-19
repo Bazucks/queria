@@ -136,7 +136,7 @@ const Footer = () => {
           {/* <FaFacebook /> */}
           <h4>Our Socials:</h4>
           <a
-            href="https://www.instagram.com/cvetanov_store/"
+            href="https://www.instagram.com/queria_services/"
             target={"_blank"}
             rel="noreferrer"
           >
