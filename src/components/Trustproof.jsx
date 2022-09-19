@@ -14,7 +14,7 @@ const Trustproof = () => {
   return (
     <div
       name="community"
-      className="w-full bg-slate-200 dark:bg-slate-900 py-20 items-center"
+      className="w-full bg-[#e4e4e7] dark:bg-slate-900 py-20 items-center"
     >
       <div className="flex items-center justify-center">
         <svg

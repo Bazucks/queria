@@ -4,7 +4,7 @@ import SExpProps from "./SExpProps";
 
 const SExpertise = () => {
   return (
-    <div className="w-full py-20 bg-slate-200 dark:bg-slate-900">
+    <div className="w-full py-20 bg-zinc-200 dark:bg-slate-900">
       <h1
         data-aos="fade-down"
         data-aos-offset="200"
@@ -14,7 +14,7 @@ const SExpertise = () => {
       >
         With Ensured Flexibility
       </h1>
-      <div className="h-[250px] m-auto w-[90%] relative grid overflow-x-hidden place-items-center overflow-hidden bg-blend-luminosity">
+      <div className="h-[250px] m-auto w-[90%] relative grid overflow-x-hidden place-items-center overflow-hidden bg-blend-luminosity drop-shadow-lg">
         <div className="flex w-[5400px]">
           {" "}
           {/* width = slide width [250px] * 18[number of slides] */}

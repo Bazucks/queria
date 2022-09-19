@@ -193,7 +193,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "md:hidden absolute w-full h-[100vh] bg-zinc-100 dark:bg-slate-900 px-8 text-center text-2xl space-y-6 justify-center mx-auto"
+            : "md:hidden absolute w-full h-[100vh] bg-zinc-100 dark:bg-slate-900 px-8 text-center text-2xl space-y-2 justify-center mx-auto"
         }
         // style={{ backgroundColor: `${bgNav}` }}
       >
@@ -271,7 +271,7 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row justify-center my-4 space-y-8">
           <button
             onClick={() => setTheme(mode)}
-            className={`border-none  bg-transparent hover:text-[#6763ff] text-black mr-4`}
+            className={`border-none  bg-transparent hover:text-[#6763ff] text-black mr-4 pt-3`}
           >
             {mode === "dark" ? (
               <svg
