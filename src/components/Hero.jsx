@@ -15,7 +15,7 @@ const Hero = () => {
       className="w-full h-screen bg-zinc-200 dark:bg-slate-900 flex flex-col justify-between transition-all duration-300"
     >
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-        <div className="flex flex-col mt-[5.4rem] sm:mt-[4rem] sm:space-x-[10rem] md:space-x-0 justify-center md:items-start w-full px-2 sm:pl-6 md:pl-12 py-6">
+        <div className="flex flex-col mt-[5.4rem] sm:mt-[4rem] sm:space-x-[10rem] md:space-x-0 justify-center md:items-start w-full px-2 pl-8 sm:pl-6 md:pl-12 py-6">
           <p
             data-aos="fade-right"
             data-aos-offset="200"
@@ -60,14 +60,14 @@ const Hero = () => {
           <a className="w-3/4" href="/#platforms">
             <button
               type="button"
-              className="py-3 px-6 sm:w-[50%] my-4 text-purple-500 hover:text-white text-xl hover:bg-gradient-to-r from-[#ae04f5] to-[#6763ff] border border-purple-500 bg-transparent duration-300 ease-linear rounded-md"
+              className="py-3 px-6 sm:w-[50%] my-4 md:w-[70%] lg:w-[50%] md:mb-16 text-purple-500 hover:text-white text-xl hover:bg-gradient-to-r from-[#ae04f5] to-[#6763ff] border border-purple-500 bg-transparent duration-300 ease-linear rounded-md"
             >
               Explore Now
             </button>
           </a>
         </div>
         <div>
-          <img className="w-full xl:mb-8" src={bgLand} alt="/" />
+          <img className="w-full xl:mb-8 opacity-0 sm:opacity-100" src={bgLand} alt="/" />
         </div>
         <div
           className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%] lg:min-w-[1000px]
