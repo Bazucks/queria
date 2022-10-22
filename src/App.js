@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import About from "./components/About";
 import AllInOne from "./components/AllInOne";
 import Hero from "./components/Hero";
