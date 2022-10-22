@@ -14,6 +14,9 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 function App() {
+  useEffect(()=> {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div className="overflow-x-hidden">
       <Hero />

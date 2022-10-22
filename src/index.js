@@ -15,7 +15,8 @@ import Form from "./components/Form";
 import GD from "./components/GD";
 import ClientError404 from "./components/ClientError404";
 import ReactGA from "react-ga";
-ReactGA.initialize("UA-243068835-1");
+const TRACKING_ID = "UA-243068835-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
