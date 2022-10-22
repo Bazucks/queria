@@ -14,6 +14,10 @@ import Faq from "./components/Faq";
 import Form from "./components/Form";
 import GD from "./components/GD";
 import ClientError404 from "./components/ClientError404";
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-243068835-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,7 +27,7 @@ root.render(
       <Route path="*" element={<ClientError404 />} />
       <Route path="/" element={<App />} />
       <Route path="/tos" element={<Tos />} />
-      <Route path="/sm-advertising" element={<Advertising />}  />
+      <Route path="/sm-advertising" element={<Advertising />} />
       <Route path="/copywriting" element={<Copy />} />
       <Route path="/seo" element={<Seo />} />
       <Route path="/sm-management" element={<Management />} />

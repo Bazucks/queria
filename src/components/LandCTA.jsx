@@ -1,7 +1,9 @@
 import React from "react";
 import readyImg from "../assets/ready.png";
+import useAnalyticsEventTracker from '../useAnalyticsEventTracker';
 
 const LandCTA = () => {
+  const gaEventTracker = useAnalyticsEventTracker('Contact us');
   return (
     <div className="w-full bg-zinc-200 dark:bg-slate-900 transition-all duration-300 py-16">
       <div className="w-full py-8 bg-gradient-to-r to-[#ae04f5] from-[#6763ff] text-center drop-shadow-xl shadow-xl sha">
@@ -21,7 +23,7 @@ const LandCTA = () => {
             alt="/"
           />
           <a href="/form">
-            {" "}
+            onClick={() => gaEventTracker("call")}{" "}
             <button
               // data-aos="flip-up"
               // data-aos-offset="200"
